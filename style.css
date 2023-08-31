@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-around;
+    background-color: #481516;
+    background-repeat: no-repeat;
+    width: 98%;
+    margin: 0;
+    padding: 50px 10px 30px 10px;
+    color: #ffffff;
+}
+
+.container1 i {
+    display: inline-block;
+}
+
+.endereço {
+    display: inline-block;
+    margin-top: 0;
+}
+.dados {
+    font-weight: lighter;
+    line-height: 1.9;
+}
+
+.inicio img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 4px #ffffff;
+    margin-left: 15px;
+}
+
+h1 {
+    font-variant: small-caps;
+}
+
+.redes {
+    padding: 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 6px;
+}
+
+.redes a:hover {
+    scale: 2;
+}
+
+.icones {
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.main {
+    width: 80%;
+}
+
+.sobre {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    line-height: 1.5;
+}
+
+.disclaimer {
+    text-align: center;
+}
+
+.subtitle {
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: 1px;
+    color:#ffffff;
+    background-color: #481516;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.forma {
+    background-color: #481516;
+    height: 3px;
+    opacity: 90%;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+.cursos, .curso-compl, .entrada, .habilidade {
+    margin: 10px;
+    line-height: 1.5;
+}
+
+.language {
+  /*  background-color: #481516; */
+    width: fit-content;
+    padding: 0 8px;
+    display: inline-block;
+    color: #481516;
+    letter-spacing: .8px;
+    text-align: center;
+    border-radius: 15px;
+    border: solid 1px #481516;
+}
+
+.lang, .level {
+    display: inline-block;
+}
+
+.lang {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.level {
+    font-style: italic;
+}
+
+.container-lang {
+    display: flex;
+    justify-content:space-around;
+    margin: 15px;
+}
+
+footer {
+    background-color: #481516;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.txt-footer {
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    text-decoration: none;
+}
